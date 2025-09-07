@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Albert Eskef – Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      transition: background 0.3s, color 0.3s;
+    }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+
+  <header class="bg-white/80 dark:bg-gray-800/90 backdrop-blur-md shadow-md text-blue-900 dark:text-white px-4 sm:px-8 py-4 flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-lg sm:text-xl font-bold">ALBERT ESKEF</h1>
+    <nav class="space-x-4 sm:space-x-6 flex items-center text-sm sm:text-base">
+      <a href="index.html" class="font-semibold hover:underline nav-home">Home</a>
+      <a href="projects.html" class="font-semibold hover:underline nav-projects">Projects</a>
+      <a href="contact.html" class="font-semibold hover:underline nav-contact">Contact Me</a>
+      <a href="https://github.com/AlbertEskef" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-white hover:text-blue-400 transition" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.205 11.385c.6.11.82-.26.82-.577v-2.02c-3.338.727-4.033-1.416-4.033-1.416a3.18 3.18 0 00-1.335-1.75c-1.09-.745.082-.729.082-.729a2.52 2.52 0 011.843 1.238 2.54 2.54 0 003.48.993c.07-.53.28-.99.505-1.216-2.665-.3-5.466-1.33-5.466-5.924a4.63 4.63 0 011.235-3.208 4.3 4.3 0 01.115-3.165s1.01-.32 3.3 1.225a11.45 11.45 0 016 0c2.29-1.546 3.297-1.225 3.297-1.225a4.3 4.3 0 01.118 3.165 4.63 4.63 0 011.233 3.208c0 4.6-2.804 5.62-5.475 5.914.29.25.543.739.543 1.49v2.204c0 .32.216.694.825.576A12.01 12.01 0 0024 12c0-6.63-5.373-12-12-12z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/albert-eskef-0105b4323/" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-white hover:text-blue-400 transition" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.024-3.037-1.851-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.353V9h3.414v1.561h.049c.476-.899 1.637-1.847 3.368-1.847 3.6 0 4.266 2.368 4.266 5.451v6.287zM5.337 7.433a2.062 2.062 0 110-4.124 2.062 2.062 0 010 4.124zM6.964 20.452H3.711V9h3.253v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.555C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.278V1.723C24 .771 23.2 0 22.225 0z"/>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <section class="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white py-16 px-4 sm:px-6 lg:px-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-6">📬 Contact</h2>
+      <p class="text-gray-400 mb-10 sm:mb-12 text-base sm:text-lg">Feel free to reach out — whether you want to collaborate, start a project, or just say hi 😊</p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 justify-center">
+        <a href="tel:+4915123456789" class="bg-[#1e2633] rounded-2xl p-8 sm:p-10 flex flex-col items-center justify-center shadow-xl transition hover:scale-105 hover:bg-[#263143] cursor-pointer">
+          <i data-lucide="phone" class="w-8 sm:w-10 h-8 sm:h-10 text-blue-500 mb-4"></i>
+          <p class="text-white font-bold text-base sm:text-lg">Phone</p>
+          <p class="text-blue-400 text-base sm:text-lg mt-2">+49 163 929 4767</p>
+        </a>
+
+        <a href="mailto:albert@example.com" class="bg-[#1e2633] rounded-2xl p-8 sm:p-10 flex flex-col items-center justify-center shadow-xl transition hover:scale-105 hover:bg-[#263143] cursor-pointer">
+          <i data-lucide="mail" class="w-8 sm:w-10 h-8 sm:h-10 text-blue-500 mb-4"></i>
+          <p class="text-white font-bold text-base sm:text-lg">Email</p>
+          <p class="text-blue-400 text-base sm:text-lg mt-2">alberteskef3@gamil.com</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
